@@ -5,10 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#51E66B"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Wykonawca" />
@@ -19,10 +21,11 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Wykoonawca" />
+        android:hint="Wykonawca" />
 
     <TextView
         android:id="@+id/textView2"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tytul" />
@@ -37,6 +40,7 @@
 
     <TextView
         android:id="@+id/textView3"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Rok wydania" />
@@ -49,6 +53,7 @@
 
     <TextView
         android:id="@+id/textView4"
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Polubienia" />
@@ -65,5 +70,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="#96E59C"
+        android:textColor="@color/black"
         android:text="Dodaj" />
 </LinearLayout>
